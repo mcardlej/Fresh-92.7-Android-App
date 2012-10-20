@@ -1,0 +1,159 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+ 	android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+    
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/linearLayout1"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:paddingLeft="12dip"
+    android:paddingRight="12dip" >
+
+<TextView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/fresh_interactive"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginTop="10dp"
+    android:text="@string/fresh_interactive"
+    android:textAppearance="?android:attr/textAppearanceMedium" />
+
+<TextView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/studio_phone"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:text="@string/studio_phone"
+    android:textAppearance="?android:attr/textAppearanceSmall" />
+
+<TextView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/studio_sms"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginBottom="10dp"
+    android:text="@string/studio_sms"
+    android:textAppearance="?android:attr/textAppearanceSmall" />
+
+<Button
+    android:id="@+id/facebook"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:layout_gravity="center_horizontal"
+    android:layout_margin="5dp"
+    android:text="Facebook"
+    android:src="@drawable/facebook" 
+    android:background="@drawable/blue_btn" 
+    style="@style/ButtonText"/>
+
+<Button
+    android:id="@+id/twitter"
+        android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:layout_gravity="center_horizontal"
+    android:layout_margin="5dp"
+    android:text="Twitter"
+    android:src="@drawable/twitter"
+    android:background="@drawable/green_btn" 
+    style="@style/ButtonText" />
+
+<Button
+    android:id="@+id/youtube"
+        android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:layout_gravity="center_horizontal"
+    android:layout_margin="5dp"
+    android:text="Youtube"
+    android:src="@drawable/youtube"
+    android:background="@drawable/red_btn" 
+    style="@style/ButtonText" />
+
+<TextView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/about_fresh"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginTop="10dp"
+    android:text="@string/about_fresh"
+    android:textAppearance="?android:attr/textAppearanceMedium" />
+
+<TextView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/fresh_blurb"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:text="@string/fresh_blurb"
+    android:textAppearance="?android:attr/textAppearanceSmall" />
+
+<TextView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/contact_fresh"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginTop="10dp"
+    android:text="@string/contact_fresh"
+    android:textAppearance="?android:attr/textAppearanceMedium" />
+
+<TextView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/address"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginBottom="10dp"
+    android:text="@string/address"
+    android:textAppearance="?android:attr/textAppearanceSmall" />
+
+<TextView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/phone"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:text="@string/phone"
+    android:textAppearance="?android:attr/textAppearanceSmall" />
+
+<TextView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/email"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:text="@string/email"
+    android:textAppearance="?android:attr/textAppearanceSmall" />
+
+<TextView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/web"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:text="@string/web"
+    android:textAppearance="?android:attr/textAppearanceSmall" />
+
+<TextView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/serious_stuff"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginTop="10dp"
+    android:text="@string/serious_stuff"
+    android:textAppearance="?android:attr/textAppearanceMedium" />
+
+<TextView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/disclaimer"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:text="@string/disclaimer"
+    android:textAppearance="?android:attr/textAppearanceSmall" />
+
+<TextView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/version"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:text="@string/version"
+    android:textAppearance="?android:attr/textAppearanceSmall" />
+
+</LinearLayout>
+</ScrollView>

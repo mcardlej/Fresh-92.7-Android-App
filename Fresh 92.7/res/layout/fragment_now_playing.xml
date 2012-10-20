@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:focusable="true"
+    android:gravity="center_horizontal"
+    android:paddingLeft="18dip"
+    android:paddingRight="18dip" >
+
+    <TextView
+        android:id="@+id/title_nowplaying"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="10dip"
+        android:gravity="bottom|center_horizontal"
+        android:lines="2"
+        android:text="@string/title_placeholder"
+        android:textAppearance="?android:attr/textAppearanceLarge" />
+
+    <TextView
+        android:id="@+id/artist_nowplaying"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/title_nowplaying"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="10dip"
+        android:gravity="center_horizontal|top"
+        android:lines="2"
+        android:text="@string/artist_placeholder"
+        android:textAppearance="?android:attr/textAppearanceMedium" />
+    
+    <ImageView
+        android:id="@+id/imageView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/artist_nowplaying"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="20dp"
+        android:layout_marginTop="20dp"
+        android:contentDescription="@string/application_name"
+        android:paddingBottom="10dip"
+        android:src="@drawable/freshcircle" />
+
+    <Button
+        android:id="@+id/ButtonTestPlayPause"
+        style="@style/ButtonText"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/imageView1"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="49dp"
+        android:background="@drawable/blue_btn"
+        android:gravity="center_vertical|center_horizontal"
+        android:src="@drawable/button_play"
+        android:text="@string/listen_live" />
+
+</RelativeLayout>

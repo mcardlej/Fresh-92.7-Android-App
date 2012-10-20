@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:orientation="horizontal"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        >
+        
+        <ImageView android:id="@+id/thumb"
+                android:layout_width="wrap_content"
+                android:layout_height="?android:attr/listPreferredItemHeight"
+                android:gravity="top"
+                android:paddingLeft="5dip"
+                android:src="@drawable/new_icon"
+                android:contentDescription="@string/application_name"
+                />
+        
+        <TextView
+            	android:id="@+id/title"
+                android:layout_width="wrap_content"
+                android:layout_height="fill_parent"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:gravity="top"
+                android:paddingLeft="5dip"
+                android:paddingTop="8dip"
+                android:layout_toRightOf="@+id/thumb"
+                android:ellipsize="marquee"
+				android:scrollHorizontally="true"
+				android:singleLine="false"
+				android:marqueeRepeatLimit="marquee_forever"
+                />
+                
+        <TextView android:id="@+id/details"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceSmall"
+                android:gravity="bottom"
+                android:paddingLeft="5dip"
+                android:paddingBottom="5dip"
+                android:layout_below="@+id/title"
+                android:layout_toRightOf="@+id/thumb"
+                android:ellipsize="marquee"
+				android:scrollHorizontally="false"
+				android:singleLine="false"
+				android:marqueeRepeatLimit="marquee_forever"
+                />
+        
+</RelativeLayout>
