@@ -1,0 +1,12 @@
+#NOTE: This is an internal implementation file, its format can be changed without prior notice.
+#Tue Oct 23 12:26:25 CST 2012
+http\://maven/thirdparty/.lastUpdated=1350957384296
+http\://maven/thirdparty/.error=
+http\://maven/repository/.error=Could not transfer artifact com.google.android.apps.analytics\:libGoogleAnalytics\:pom\:1.5.1 from/to centrelink-repository (http\://maven/repository)\: Access denied to\: http\://maven/repository/com/google/android/apps/analytics/libGoogleAnalytics/1.5.1/libGoogleAnalytics-1.5.1.pom
+default-http\://repo.maven.apache.org/maven2/.lastUpdated=1350957373812
+http\://repo.maven.apache.org/maven2/.error=Could not transfer artifact com.google.android.apps.analytics\:libGoogleAnalytics\:pom\:1.5.1 from/to central (http\://repo.maven.apache.org/maven2)\: connection timed out to http\://repo.maven.apache.org/maven2/com/google/android/apps/analytics/libGoogleAnalytics/1.5.1/libGoogleAnalytics-1.5.1.pom
+file\://C\:\\Data\\mercurial\\mcardlej-Fresh-92.7-Android-App-0d9ecb0\\Fresh\ 92.7/maven_repo_3rd_party/.error=
+da39a3ee5e6b4b0d3255bfef95601890afd80709@aditfs1\:8080>adc9cb2c86df8ee3d5a75f7ad160b64e72cc1193@default-http\://maven/repository/.lastUpdated=1350957383796
+file\://C\:\\Data\\mercurial\\mcardlej-Fresh-92.7-Android-App-0d9ecb0\\Fresh\ 92.7/maven_repo_3rd_party/.lastUpdated=1350957362765
+http\://repo1.maven.org/maven2/.error=
+http\://repo1.maven.org/maven2/.lastUpdated=1350957385406
