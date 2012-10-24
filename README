@@ -10,3 +10,5 @@
 4. This will take a few minutes the first time you run it as it needs to download a few dependencies. Once it's done, it should say BUILD SUCCESSFUL at the end, you can fire up eclipse
 5. Import the project into eclipse using the 'Existing project into workspace' option
 6. Start hacking away
+
+.
