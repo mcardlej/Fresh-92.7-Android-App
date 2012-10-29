@@ -8,7 +8,4 @@ if [ -z "$ANDROID_HOME" ]; then
    read ANDROID_HOME
 fi
 
-echo "WARNING: this will blow away any changes you've manually made to any existing eclipse project files (probably a good thing). Press enter to continue otherwise Ctrl+C to bail out"
-read
-
-mvn eclipse:clean eclipse:eclipse -DdownloadJavadoc -Dandroid.sdk.path=$ANDROID_HOME
+mvn eclipse:clean install -Dandroid.sdk.path=$ANDROID_HOME
