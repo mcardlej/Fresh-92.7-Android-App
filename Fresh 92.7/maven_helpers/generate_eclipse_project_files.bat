@@ -7,6 +7,7 @@ set /P ANDROID_HOME=The ANDROID_HOME environment variable isn't set, where is yo
 echo WARNING: this will blow away any changes you've manually made to any existing eclipse project files (probably a good thing). Press enter to continue otherwise Ctrl+C to bail out
 pause
 rem we shouldn't have to pass the android.sdk.path param but why not
+cd ..
 mvn eclipse:clean eclipse:eclipse -DdownloadJavadoc -Dandroid.sdk.path=%ANDROID_HOME%
 exit /B 0
 :maven_doesnt_exist

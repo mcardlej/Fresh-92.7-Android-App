@@ -7,5 +7,5 @@ if [ -z "$ANDROID_HOME" ]; then
    echo "The ANDROID_HOME environment variable isn't set, where is your Android SDK located?"
    read ANDROID_HOME
 fi
-
+cd ..
 mvn eclipse:clean install -Dandroid.sdk.path=$ANDROID_HOME

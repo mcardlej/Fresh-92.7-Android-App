@@ -5,6 +5,7 @@ if defined ANDROID_HOME (goto :android_home_defined)
 set /P ANDROID_HOME=The ANDROID_HOME environment variable isn't set, where is your Android SDK located?
 :android_home_defined
 rem we shouldn't have to pass the android.sdk.path param but why not
+cd ..
 mvn eclipse:clean install -Dandroid.sdk.path=%ANDROID_HOME%
 exit /B 0
 :maven_doesnt_exist
